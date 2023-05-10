@@ -9,4 +9,4 @@ print('Market Price:', aapl_market_price)
 print('Previous Close Price:', aapl_previous_close_price)
 
 message = f'\nTicker: AAPL\nMarket Price: {aapl_market_price}\nPrevious Close Price: {aapl_previous_close_price}'
-send_sms('+18636143724', message)
+send_sms('number', message)
